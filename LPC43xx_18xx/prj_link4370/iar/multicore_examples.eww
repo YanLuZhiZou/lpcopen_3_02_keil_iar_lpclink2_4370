@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\lpc_board_nxp_lpclink2_4370_m0\lib_lpc_board_nxp_lpclink2_4370_m0.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lpc_chip_43xx\lib_lpc_chip_43xx.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lpc_board_nxp_lpclink2_4370\lib_lpc_board_nxp_lpclink2_4370.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lpc_chip_43xx_m0\lib_lpc_chip_43xx_m0.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\multicore_blinky_m0app\multicore_blinky_m0app.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\multicore_blinky_m0sub\multicore_blinky_m0sub.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\multicore_blinky_m4\multicore_blinky_m4.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>test</name>
+      <member>
+        <project>lib_lpc_board_nxp_lpclink2_4370</project>
+        <configuration>nxp_lpclink2_4370</configuration>
+      </member>
+      <member>
+        <project>lib_lpc_board_nxp_lpclink2_4370_m0</project>
+        <configuration>nxp_lpclink2_4370_m0</configuration>
+      </member>
+      <member>
+        <project>lib_lpc_chip_43xx</project>
+        <configuration>chip_43xx_lib</configuration>
+      </member>
+      <member>
+        <project>lib_lpc_chip_43xx_m0</project>
+        <configuration>chip_43xx_m0_lib</configuration>
+      </member>
+      <member>
+        <project>multicore_blinky_m0app</project>
+        <configuration>spifi_nxp_lpclink2_4370</configuration>
+      </member>
+      <member>
+        <project>multicore_blinky_m0sub</project>
+        <configuration>spifi_nxp_lpclink2_4370</configuration>
+      </member>
+      <member>
+        <project>multicore_blinky_m4</project>
+        <configuration>spifi_nxp_lpclink2_4370</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

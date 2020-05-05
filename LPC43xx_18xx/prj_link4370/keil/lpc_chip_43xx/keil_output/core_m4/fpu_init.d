@@ -1,0 +1,11 @@
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\src\fpu_init.c
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\config_43xx\sys_config.h
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\inc\cmsis.h
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\inc\lpc_types.h
+.\keil_output\core_m4\fpu_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\keil_output\core_m4\fpu_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\inc\cmsis_43xx.h
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\inc\core_cm4.h
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\inc\core_cmInstr.h
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\inc\core_cmFunc.h
+.\keil_output\core_m4\fpu_init.o: ..\..\..\chip_43xx_18xx\inc\core_cm4_simd.h

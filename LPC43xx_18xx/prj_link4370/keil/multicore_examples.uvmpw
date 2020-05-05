@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>.\lpc_chip_43xx\lib_lpc_chip_43xx.uvprojx</PathAndName>
+    <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
+  </project>
+
+  <project>
+    <PathAndName>.\lpc_board_nxp_lpclink2_4370\lib_lpc_board_nxp_lpclink2_4370.uvprojx</PathAndName>
+    <NodeIsCheckedInBatchBuild>1</NodeIsCheckedInBatchBuild>
+  </project>
+
+  <project>
+    <PathAndName>.\lpc_chip_43xx_m0\lib_lpc_chip_43xx_m0.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\lpc_board_nxp_lpclink2_4370_m0\lib_lpc_board_nxp_lpclink2_4370_m0.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\multicore_blinky_m4\multicore_blinky_m4.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+  </project>
+
+  <project>
+    <PathAndName>.\multicore_blinky_m0app\multicore_blinky_m0app.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\multicore_blinky_m0sub\multicore_blinky_m0sub.uvprojx</PathAndName>
+  </project>
+
+</ProjectWorkspace>

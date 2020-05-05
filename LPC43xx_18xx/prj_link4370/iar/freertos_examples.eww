@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\lpc_chip_43xx\lib_lpc_chip_43xx.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lpc_board_nxp_lpclink2_4370\lib_lpc_board_nxp_lpclink2_4370.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\freertos_blinky\freertos_blinky.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>test</name>
+      <member>
+        <project>lib_lpc_board_nxp_lpclink2_4370</project>
+        <configuration>nxp_lpclink2_4370</configuration>
+      </member>
+      <member>
+        <project>lib_lpc_chip_43xx</project>
+        <configuration>chip_43xx_lib</configuration>
+      </member>
+      <member>
+        <project>freertos_blinky</project>
+        <configuration>spifi_nxp_lpclink2_4370</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

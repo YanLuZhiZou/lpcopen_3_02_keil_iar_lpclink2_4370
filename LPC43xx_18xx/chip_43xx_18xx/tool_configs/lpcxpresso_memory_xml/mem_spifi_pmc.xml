@@ -1,0 +1,14 @@
+<info flash_driver='LPC18_43_SPIFI_16MB_64KB.cfx'>
+ <chip>
+  <memory id='Flash' type='Flash' is_ro='true' can_program='true'></memory>
+  <memory id='RAM' type='RAM'></memory>
+   <memoryInstance id='RamLoc72' derived_from='RAM' location='0x10088000' size='0x2000'   edited='true'  />
+   <memoryInstance id='SPIFI' derived_from='Flash' location='0x14000000' size='0x400000'   edited='true'  />
+ </chip>
+</info>
+
+
+
+
+
+
